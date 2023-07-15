@@ -1,0 +1,70 @@
+*{
+    font-family: Outfit;
+}
+.nav-link{
+    color:  #444;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 171.429% */
+    margin: 0 0.7rem;
+}
+.nav-link:hover{
+    color:  #181818;
+}
+.contact{
+    background:  #996830;
+    text-align: center;
+    color: #fff;
+
+}
+.baner-img{
+    width: 100%;
+}
+.baner{
+    background-color: #2C2C2C;
+}
+.about{
+    padding: 112px 128px;
+}
+hr{
+    margin: 0.5rem 5px;
+}
+.services{
+    padding: 112px 128px;
+}
+.box{
+    text-align: center;
+    border: 1px solid #E6D8CC;
+    padding: 40px;
+}
+.img-top{
+    width: 48px;
+    height: 48px;
+}
+.card .card-title{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.5px;
+}
+.card{
+    padding: 40px;
+}
+.card-body{
+    margin-top: 80px;
+}
+.card{
+    border: 1px solid var(--primary-100, #E6D8CC);
+    border-radius: 0;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px)  {
+    .nav-link{
+        display: none;
+    }
+    .contact{
+        display: block;
+    }
+}
