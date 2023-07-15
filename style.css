@@ -1,18 +1,65 @@
-*{
+:root{
+    --primary-600: rgba(153, 104, 48, 1);
+    --primary-300: rgba(196, 163, 134, 1);
+    --primary-100: rgba(230, 216, 204, 1);
+    --neutral-900: rgba(44, 44, 44, 1);
+    --neutral-700: rgba(68, 68, 68, 1);
+    --neutral-500: rgba(124, 124, 124, 1);
+    --neutral-300: rgba(217, 217, 214, 1);
+    --neutral-100: rgba(229, 229, 229, 1);
+
+
+}
+
+header{
     font-family: Outfit;
 }
+p{
+    font-family: Outfit;
+    color: var(--neutral-700);
+}
+h1,
+h2{
+    font-family: Playfair Display;
+    color: var(--neutral-900);
+}
+h5{
+    font-family: Outfit;
+    color: var(--primary-600);
+    text-transform: capitalize;
+}
+hr{
+    color: var(--primary-600);
+    display:inline-block; 
+    width:64px; 
+    height: 1px;
+    line-height: 20px;
+    opacity: 0.800000011920929;
+
+}
+footer hr{
+    color: var(--neutral-300);
+    width: 100%;
+    align-items: center;
+    stroke-width: 1px;
+    height: 0px;
+
+}
+footer h2{
+    color: var(--primary-600);
+}
 .nav-link{
-    color:  #444;
+    color: var(--neutral-700);
     font-style: normal;
     font-weight: 500;
     line-height: 1.5rem; /* 171.429% */
     margin: 0 0.7rem;
 }
 .nav-link:hover{
-    color:  #181818;
+    color: var(--neutral-900);
 }
 .contact{
-    background:  #996830;
+    background: var(--primary-600);
     text-align: center;
     color: #fff;
 
@@ -35,7 +82,7 @@ hr{
 .box{
     border: 1px solid #E6D8CC;
     padding: 39px 33px;
-    width: 384px;
+    max-width: 384px;
     height: 420px;
 }
 .img-top{
@@ -56,7 +103,25 @@ hr{
     z-index: 99;
     padding: 2rem;
 }
+.baner_button{
+    position: absolute;
+    left: 5rem;
+    margin-top: -5rem;
+    height: 10rem;
 
+}
+.projects{
+    padding: 112px 128px;
+}
+.project{
+    margin-top: 5rem;
+}
+.project img{
+    width: 100%;
+}
+.project h2{
+    margin-top: 2rem;
+}
 
 /* RESPONSIVE */
 @media only screen and (max-width: 768px)  {
