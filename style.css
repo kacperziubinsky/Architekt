@@ -138,6 +138,9 @@ hr{
     .contact{
         display: block;
     }
+    .baner_button{
+        height: 7rem;
+    }
 }
 
 @-webkit-keyframes fadeIn { 
