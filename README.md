@@ -1,9 +1,9 @@
 # Architekt
 Original Wordpress template, making from figma scratch.
 
-Technology:
+Used:
 -HTML & CSS,
--JavaScript,
+-Bootstrap 5,
+-AOS.
 
 
-TIME SPEND: 5H
