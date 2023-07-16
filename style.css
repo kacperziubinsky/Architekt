@@ -17,6 +17,7 @@ header{
     -webkit-animation-duration: 1s;
     animation-name: fadeIn;
     animation-duration: 1s;
+    margin-bottom: 8rem;
 }
 p{
     font-family: Outfit;
@@ -68,10 +69,8 @@ footer h2{
     color: #fff;
 
 }
-.baner-img{
-    width: 100%;
-}
 .baner{
+    margin: 120px 0;
     background-color: #2C2C2C;
     -webkit-animation-name: fadeIn;
     -webkit-animation-duration: 1s;
@@ -79,13 +78,13 @@ footer h2{
     animation-duration: 1s;
 }
 .about{
-    padding: 112px 128px;
+    margin: 120px 0;
 }
 hr{
     margin: 0.5rem 5px;
 }
 .services{
-    padding: 112px 128px;
+    margin: 120px 0;
 }
 .box{
     border: 1px solid #E6D8CC;
@@ -119,7 +118,7 @@ hr{
 
 }
 .projects{
-    padding: 112px 128px;
+    margin: 120px 0;
 }
 .project{
     margin-top: 5rem;
