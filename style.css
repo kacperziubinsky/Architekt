@@ -1,3 +1,4 @@
+/*TYPOGRAPHY */
 :root{
     --primary-600: rgba(153, 104, 48, 1);
     --primary-300: rgba(196, 163, 134, 1);
@@ -11,6 +12,87 @@
 
 }
 
+p{
+    font-family: Outfit;
+    color: var(--neutral-700);
+}
+
+h1,
+h2{
+    font-family: Playfair Display;
+    color: var(--neutral-900);
+}
+
+h5{
+    font-family: Outfit;
+    color: var(--primary-600);
+    text-transform: capitalize;
+}
+
+footer h2{
+    color: var(--primary-600);
+}
+
+.project h2{
+    margin-top: 2rem;
+}
+
+/* ELEMENTS */
+
+hr{
+    color: var(--primary-600);
+    display:inline-block; 
+    width:64px; 
+    height: 1px;
+    line-height: 20px;
+    opacity: 0.800000011920929;
+}
+
+hr{
+    margin: 0.5rem 5px;
+}
+
+footer hr{
+    color: var(--neutral-300);
+    width: 100%;
+    align-items: center;
+    stroke-width: 1px;
+    height: 0px;
+}
+
+.nav-link{
+    color: var(--neutral-700);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 171.429% */
+    margin: 0 0.7rem;
+}
+
+.nav-link:hover{
+    color: var(--neutral-900);
+}
+
+.contact{
+    background: var(--primary-600);
+    text-align: center;
+    color: #fff;
+
+}
+
+.badge_img{
+    position: absolute;
+    z-index: 99;
+    padding: 2rem;
+}
+
+.baner_button{
+    position: absolute;
+    left: 5rem;
+    margin-top: -5rem;
+    height: 10rem;
+
+}
+
 header{
     font-family: Outfit;
     -webkit-animation-name: fadeIn;
@@ -19,79 +101,7 @@ header{
     animation-duration: 1s;
     margin-bottom: 8rem;
 }
-p{
-    font-family: Outfit;
-    color: var(--neutral-700);
-}
-h1,
-h2{
-    font-family: Playfair Display;
-    color: var(--neutral-900);
-}
-h5{
-    font-family: Outfit;
-    color: var(--primary-600);
-    text-transform: capitalize;
-}
-hr{
-    color: var(--primary-600);
-    display:inline-block; 
-    width:64px; 
-    height: 1px;
-    line-height: 20px;
-    opacity: 0.800000011920929;
 
-}
-footer hr{
-    color: var(--neutral-300);
-    width: 100%;
-    align-items: center;
-    stroke-width: 1px;
-    height: 0px;
-
-}
-footer h2{
-    color: var(--primary-600);
-}
-.nav-link{
-    color: var(--neutral-700);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5rem; /* 171.429% */
-    margin: 0 0.7rem;
-}
-.nav-link:hover{
-    color: var(--neutral-900);
-}
-.contact{
-    background: var(--primary-600);
-    text-align: center;
-    color: #fff;
-
-}
-.baner{
-    margin: 120px 0;
-    background-color: #2C2C2C;
-    -webkit-animation-name: fadeIn;
-    -webkit-animation-duration: 1s;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-}
-.about{
-    margin: 120px 0;
-}
-hr{
-    margin: 0.5rem 5px;
-}
-.services{
-    margin: 120px 0;
-}
-.box{
-    border: 1px solid #E6D8CC;
-    padding: 39px 33px;
-    max-width: 384px;
-    height: 420px;
-}
 .img-top{
     width: 48px;
     height: 48px;
@@ -105,30 +115,46 @@ hr{
     padding-top: 6rem;
     position: relative;
 }
-.badge_img{
-    position: absolute;
-    z-index: 99;
-    padding: 2rem;
-}
-.baner_button{
-    position: absolute;
-    left: 5rem;
-    margin-top: -5rem;
-    height: 10rem;
 
+
+.project img{
+    width: 100%;
 }
+
+/* SECTIONS */
+
+.baner{
+    margin: 120px 0;
+    background-color: #2C2C2C;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+.about{
+    margin: 120px 0;
+}
+
+.services{
+    margin: 120px 0;
+}
+
 .projects{
     margin: 120px 0;
 }
 .project{
     margin-top: 5rem;
 }
-.project img{
-    width: 100%;
+
+.box{
+    border: 1px solid #E6D8CC;
+    padding: 39px 33px;
+    max-width: 384px;
+    height: 420px;
 }
-.project h2{
-    margin-top: 2rem;
-}
+
+
+
 
 /* RESPONSIVE */
 @media only screen and (max-width: 768px)  {
@@ -142,6 +168,8 @@ hr{
         height: 7rem;
     }
 }
+
+/* ANIMATIONS */
 
 @-webkit-keyframes fadeIn { 
     0% { opacity: 0; }
