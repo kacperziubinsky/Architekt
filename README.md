@@ -1,5 +1,6 @@
 # Architekt
-Original Wordpress template, making from figma scratch.
+Website was create from figma scratch.
+All structures come from graphic design.
 
 ## Used things:
 -HTML & CSS,
