@@ -167,7 +167,17 @@ header{
     .baner_button{
         height: 7rem;
     }
+    .badge_img{
+        right: 50px;
+        top: 450px;
+    }
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
 }
+
 
 /* ANIMATIONS */
 
