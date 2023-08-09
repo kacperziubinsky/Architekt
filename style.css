@@ -169,7 +169,10 @@ header{
     }
     .badge_img{
         right: 50px;
-        top: 450px;
+        top: 430px;
+    }
+    .image_two{
+        padding-top: 4rem;
     }
     html,
     body{
